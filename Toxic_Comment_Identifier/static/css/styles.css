@@ -1,0 +1,61 @@
+#spinner-img {
+    height: 75px;
+    width: 75px;
+}
+#spinner {
+    position: fixed;
+    left: 45%;
+    top: 45%;
+    display: none;
+    background: transparent;
+    z-index: 1000;
+    height: 31px;
+    width: 31px;
+}
+
+#spinner-holder {
+    background: transparent;
+    width: 100%;
+    height: 100%;        
+}
+
+#center {
+    position: fixed;
+    left: 30%;
+    top: 40%;
+    height: 31px;
+    width: 40%;
+  }
+.dropdown-menu {
+    background-color: #343a3f;
+}
+.dropdown-item {
+    color: #f1f5f4;
+    font-size: small;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #f1f5f4;
+    text-decoration: none;
+    background-color: #5c5f5e;
+}
+
+.card {
+    margin:10px;
+}
+#card-about {
+    position: fixed;
+    left: 10%;
+    top: 10%;
+}
+
+.card img {
+    max-height: 180px;
+    max-width: 180px;
+}
+
+.d-flex .p2 {
+    margin: 10px;
+    background-color: lightgray;
+    padding: 5px;
+}
